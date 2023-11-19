@@ -1,4 +1,4 @@
-#P10K Config
+# P10K Config
 
 ### Install Oh My Zsh
 
@@ -33,4 +33,4 @@ to the one below
 [[ ! -f ~/p10kconfig/.p10k.zsh ]] || source ~/p10kconfig/.p10k.zsh
 ```
 
-###Done ✨
+### Done ✨
