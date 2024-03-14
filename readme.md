@@ -27,7 +27,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
    - [MesloLGS NF Bold Italic.ttf](
        https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)
 
-#### Step 2: Clone the repository
+#### Step 2: Use the installed `MesloLGS NF` font in the terminal of your choice
+
+#### Step 3: Clone the `powerlevel10k` repository
 
 ```bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
@@ -81,6 +83,12 @@ to the one below
 
 ```bash
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+```
+
+### Create a `git alias` to add all and commit in one command (optional)
+
+```bash
+git config --global alias.ac '!git add -A && git commit -m'
 ```
 
 ### Done ✨
