@@ -88,7 +88,7 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 ### Create a `git alias` to add all and commit in one command (optional)
 
 ```bash
-git config --global alias.ac '!git add -A && git commit -m'
+git config --global alias.ac '!git add -A && git commit'
 ```
 
 ### Done ✨
